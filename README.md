@@ -52,7 +52,9 @@ SHA-256:
     8149c17e766767712fa6a1724a9d9f22154ce2f473df8b38a652aad19d86df19  verify_d6.py
     2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7  cert_d6_data.json
 
-Check with `sha256sum -c SHA256SUMS` (Linux) or `shasum -a 256 -c SHA256SUMS` (macOS).
+Check with `sha256sum -c SHA256SUMS` (Linux) or `shasum -a 256 -c SHA256SUMS` (macOS). The checksums are those of the files as distributed, with LF line endings; a copy whose line endings were
+converted to CRLF (for example by a Git checkout on Windows with `core.autocrlf`) has a different checksum. This
+repository's `.gitattributes` turns that conversion off.
 
 ## How to run
 
