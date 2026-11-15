@@ -1,0 +1,9 @@
+date: 2026-11-15T02:46:09Z
+kernel: Linux 6.8.0-48-generic x86_64
+cpu: 13th Gen Intel(R) Core(TM) i7-13700KF
+python3 on PATH: /usr/bin/python3
+interpreter used: /usr/bin/python3 -> /usr/bin/python3.10
+python 3.10.12 CPython /usr/bin/python3
+sha256 of the files in the working directory:
+8149c17e766767712fa6a1724a9d9f22154ce2f473df8b38a652aad19d86df19  verify_d6.py
+2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7  cert_d6_data.json

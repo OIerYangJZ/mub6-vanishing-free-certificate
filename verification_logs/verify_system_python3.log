@@ -1,0 +1,38 @@
+interpreter: /usr/bin/python3 (CPython 3.10.12)
+flags.isolated 1 flags.optimize 0
+command: timeout 600 /usr/bin/python3 -I verify_d6.py cert_d6_data.json
+start: 2026-11-15T02:46:09Z
+----- program output (stdout and stderr) -----
+certificate cert_d6_data.json sha256 2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7
+rank table: 8871 909 897
+rank table: 40618 3583 2842
+constant f       = -821605927536823/38880 ~ -2.113184e+10
+sum |beta|       = 5531688869329/12960 ~ 4.268278e+08
+f + sum|beta|    ~ -2.070501e+10
+VERIFIED: the averaged positive form is <= f + sum|beta| < 0, a contradiction; no 7 MUBs in C^6.
+	Command being timed: "timeout 600 /usr/bin/python3 -I verify_d6.py cert_d6_data.json"
+	User time (seconds): 44.59
+	System time (seconds): 0.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 377780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 101613
+	Voluntary context switches: 3
+	Involuntary context switches: 1733
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----- end of program output -----
+exit status: 0
+end: 2026-11-15T02:46:54Z

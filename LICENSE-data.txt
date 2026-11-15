@@ -1,0 +1,5 @@
+cert_d6_data.json, the logs in verification_logs/, and the accompanying note are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The program verify_d6.py is licensed under the Apache License, Version 2.0 (see LICENSE and NOTICE).

@@ -1,0 +1,40 @@
+{
+  "title": "Exact certificate excluding seven mutually unbiased bases in C^6 without Fourier vanishing (verifier and data)",
+  "upload_type": "software",
+  "description": "<p>Standalone exact verifier and certificate data proving that there are no seven mutually unbiased bases in C<sup>6</sup>; by Weiner's gap theorem (Proc. Amer. Math. Soc. 141 (2013) 1963&ndash;1969) this gives N(6) &le; 5.</p><p>OpenAI's preprint <em>Exact Fourier certificates for complex Hadamard matrices of order six</em> (24 September 2026) proves the same bound in two parts: (A) the Matolcsi&ndash;Ruzsa&ndash;Weiner Fourier vanishing for every 6&times;6 complex Hadamard matrix except Tao's cubic one, with a separate exclusion of the cubic matrix; (B) a mixed-moment positivity certificate that uses the vanishing as an input. This deposit shows that part (A) is not needed: with the same six test-function lists and the same valid linear identities (contraction relations, order-one zeros, the second-moment/2-design identity, the mixed identities (36)&ndash;(37), symmetries), but without ever setting a moment to zero because a charge is a permutation of (1,1,1,&minus;1,&minus;1,&minus;1), new positive definite integer Gram matrices give f = &minus;821605927536823/38880, &Sigma;|&beta;| = 5531688869329/12960, f + &Sigma;|&beta;| &lt; 0.</p><p>Contents: <code>verify_d6.py</code> (Python &ge; 3.8, standard library only; all certifying arithmetic is integer/rational; regenerates all relations), <code>cert_d6_data.json</code> (certificate data), <code>SHA256SUMS</code>, <code>README.md</code>, reference run logs (current verifier) and, in a subfolder, superseded logs of an earlier revision. Run: <code>python3 -I verify_d6.py cert_d6_data.json</code> (about 45&ndash;80 s depending on the machine, 0.4 GB). Assertions must be enabled; the verifier refuses to run under <code>-O</code> or <code>PYTHONOPTIMIZE</code>.</p>",
+  "creators": [
+    {
+      "name": "Yang, Jinze",
+      "affiliation": "School of Physics, Xidian University"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "mutually unbiased bases",
+    "complex Hadamard matrices",
+    "dimension six",
+    "computer-assisted proof",
+    "exact certificate",
+    "Fourier vanishing"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1090/S0002-9939-2013-11487-5",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/openai/math/tree/main/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/OIerYangJZ/mub6-vanishing-free-certificate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "SHA-256: verify_d6.py 8149c17e766767712fa6a1724a9d9f22154ce2f473df8b38a652aad19d86df19; cert_d6_data.json 2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7. Code (verify_d6.py): Apache License 2.0, adapted from OpenAI's Apache-2.0 verifier (see NOTICE). Data and logs: CC BY 4.0. Add the arXiv id as isSupplementTo once available."
+}

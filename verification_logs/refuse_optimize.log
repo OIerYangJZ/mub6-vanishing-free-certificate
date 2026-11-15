@@ -1,0 +1,13 @@
+Check that the verifier refuses to run with assertions disabled.
+
+command: timeout 600 /usr/bin/python3 -O verify_d6.py cert_d6_data.json
+Refusing to run with -O / PYTHONOPTIMIZE: every check in this verifier is an assertion.
+exit status: 1
+
+command: PYTHONOPTIMIZE=1 timeout 600 /usr/bin/python3 verify_d6.py cert_d6_data.json
+Refusing to run with -O / PYTHONOPTIMIZE: every check in this verifier is an assertion.
+exit status: 1
+
+command: timeout 600 /usr/bin/python3 -I -OO verify_d6.py cert_d6_data.json
+Refusing to run with -O / PYTHONOPTIMIZE: every check in this verifier is an assertion.
+exit status: 1

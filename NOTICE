@@ -1,0 +1,7 @@
+verify_d6.py
+Copyright 2026 Jinze Yang.
+
+This product includes software adapted from the verifier printed in Appendix A of
+OpenAI, "Exact Fourier certificates for complex Hadamard matrices of order six" (2026),
+https://github.com/openai/math, licensed under the Apache License, Version 2.0.
+The modifications are listed in the header of verify_d6.py and in the accompanying note.

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this certificate or verifier, please cite it as below."
+type: software
+title: "Exact certificate excluding seven mutually unbiased bases in C^6 without Fourier vanishing (verifier and data)"
+version: "1.0.0"
+repository-code: "https://github.com/OIerYangJZ/mub6-vanishing-free-certificate"
+authors:
+  - family-names: "Yang"
+    given-names: "Jinze"
+    affiliation: "School of Physics, Xidian University"
+abstract: >-
+  Standalone exact verifier (Python standard library only; integer and rational arithmetic)
+  and certificate data proving that there are no seven mutually unbiased bases in C^6, hence
+  N(6) <= 5 by Weiner's gap theorem. The certificate reuses the six test-function lists of
+  OpenAI's mixed-moment certificate but never uses the Fourier-vanishing input (their
+  eq. (27)), the single-matrix identity (10), or the cubic exclusion (Prop. 5.2). New positive
+  definite integer Gram matrices give f + sum|beta| = -201252715232209/9720 < 0.
+keywords:
+  - mutually unbiased bases
+  - complex Hadamard matrices
+  - dimension six
+  - computer-assisted proof
+  - exact certificate
+  - positive semidefinite certificate
+references:
+  - type: article
+    title: "Exact Fourier certificates for complex Hadamard matrices of order six"
+    authors:
+      - name: "OpenAI"
+    year: 2026
+    notes: "OpenAI Math Release preprint, dated 24 September 2026, released 6 October 2026"
+    url: "https://github.com/openai/math/tree/main/preprints/Exact-Fourier-certificates-for-complex-Hadamard-matrices-of-order-six-September-24-2026"
+  - type: article
+    title: "A gap for the maximum number of mutually unbiased bases"
+    authors:
+      - family-names: "Weiner"
+        given-names: "Mihály"
+    journal: "Proceedings of the American Mathematical Society"
+    volume: 141
+    issue: 6
+    start: 1963
+    end: 1969
+    year: 2013
+    doi: "10.1090/S0002-9939-2013-11487-5"
+license:
+  - Apache-2.0
+  - CC-BY-4.0

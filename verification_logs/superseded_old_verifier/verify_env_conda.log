@@ -1,0 +1,37 @@
+interpreter: /phadcloud/home/[redacted]/envs/[redacted]/bin/python
+python 3.12.4 CPython /phadcloud/home/[redacted]/envs/[redacted]/bin/python
+flags.isolated 1 flags.optimize 0
+command: /phadcloud/home/[redacted]/envs/[redacted]/bin/python -I verify_d6.py cert_d6_data.json
+start: 2026-11-14T10:55:53Z
+certificate cert_d6_data.json sha256 2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7
+rank table: 8871 909 897
+rank table: 40618 3583 2842
+constant f       = -821605927536823/38880 ~ -2.113184e+10
+sum |beta|       = 5531688869329/12960 ~ 4.268278e+08
+f + sum|beta|    ~ -2.070501e+10
+VERIFIED: the averaged positive form is <= f + sum|beta| < 0, a contradiction; no 7 MUBs in C^6.
+	Command being timed: "/phadcloud/home/[redacted]/envs/[redacted]/bin/python -I verify_d6.py cert_d6_data.json"
+	User time (seconds): 68.53
+	System time (seconds): 0.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:09.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 379276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 283
+	Minor (reclaiming a frame) page faults: 99090
+	Voluntary context switches: 431
+	Involuntary context switches: 85
+	Swaps: 0
+	File system inputs: 10952
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+exit status: 0
+end: 2026-11-14T10:57:02Z

@@ -1,0 +1,21 @@
+Superseded logs (kept for the record; not evidence for the current release).
+
+These logs document reference runs of an EARLIER revision of verify_d6.py,
+sha256 f6cfab32503a885637f4063bf58e404f5f13ae602be6186c6fe83ab07e68a55b,
+on a Linux cluster node on 2026-11-14 (Slurm job 1645472; the Slurm stdout file is empty
+because each run wrote its own log). The data file was the same as now
+(cert_d6_data.json, sha256 2f7b602b28799008f78a28744ae6c0e0ee02633038b0f21bf8707a4c7080f3e7).
+
+The current verifier (sha256 8149c17e766767712fa6a1724a9d9f22154ce2f473df8b38a652aad19d86df19)
+differs from that revision in two ways: it refuses to run under -O / PYTHONOPTIMIZE, and the final
+sign test f + sum|beta| < 0 is an explicit check instead of an assert statement. Its reference run is
+in the parent directory (verification_logs/).
+
+Editorial changes made on 2026-11-15, for the release only:
+  * a private working-directory name in paths was replaced by "[redacted]" in
+    job_verify_d6.sh and verify_env_conda.log;
+  * the run tag "env_<name>" was replaced by "env_conda", and the log file was renamed
+    accordingly to verify_env_conda.log.
+  * the cluster account name in home-directory paths was replaced by "[redacted]" in the same
+    two files.
+No other content of these files was changed.
