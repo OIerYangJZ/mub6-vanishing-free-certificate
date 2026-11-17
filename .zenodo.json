@@ -21,6 +21,12 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "arXiv:2611.19809",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    },
+    {
       "identifier": "10.1090/S0002-9939-2013-11487-5",
       "relation": "references",
       "scheme": "doi"
