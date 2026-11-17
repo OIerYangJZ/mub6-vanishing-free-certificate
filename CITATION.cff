@@ -3,6 +3,7 @@ message: "If you use this certificate or verifier, please cite it as below."
 type: software
 title: "Exact certificate excluding seven mutually unbiased bases in C^6 without Fourier vanishing (verifier and data)"
 version: "1.0.0"
+date-released: 2026-11-17
 repository-code: "https://github.com/OIerYangJZ/mub6-vanishing-free-certificate"
 authors:
   - family-names: "Yang"
