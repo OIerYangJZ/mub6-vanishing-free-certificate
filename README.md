@@ -1,6 +1,7 @@
 # No seven mutually unbiased bases in C^6 without Fourier vanishing: exact certificate
 
 Release package, 15 November 2026. Author: Jinze Yang, School of Physics, Xidian University.
+Archived at Zenodo: version 1.0.0, DOI [10.5281/zenodo.24296807](https://doi.org/10.5281/zenodo.24296807) (all versions: [10.5281/zenodo.24296806](https://doi.org/10.5281/zenodo.24296806)).
 License: `verify_d6.py` — Apache License 2.0 (adapted from OpenAI's Apache-2.0 verifier; see `LICENSE`, `NOTICE`); `cert_d6_data.json` and logs — CC BY 4.0 (see `LICENSE-data.txt`).
 
 ## What this proves

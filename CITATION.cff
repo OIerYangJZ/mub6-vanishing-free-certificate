@@ -4,6 +4,7 @@ type: software
 title: "Exact certificate excluding seven mutually unbiased bases in C^6 without Fourier vanishing (verifier and data)"
 version: "1.0.0"
 date-released: 2026-11-17
+doi: "10.5281/zenodo.24296807"
 repository-code: "https://github.com/OIerYangJZ/mub6-vanishing-free-certificate"
 authors:
   - family-names: "Yang"
